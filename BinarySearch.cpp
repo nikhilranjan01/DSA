@@ -3,7 +3,7 @@
 // Function to perform binary search (assuming the array is sorted)
 int binarySearch(int arr[], int left, int right, int target) {
     while (left <= right) {
-        int mid = left + (right - left) / 2
+        int mid = left + (right - left) / 2;
 
         if (arr[mid] == target) {
             return mid; // Return the index where the target is found
