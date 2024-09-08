@@ -12,7 +12,7 @@ int binarySearch(int arr[], int left, int right, int target) {
         if (arr[mid] < target) {
             left = mid + 1;
         } else {
-            right = mid - 1
+            right = mid - 1;
         }
     }
     return -1; // Return -1 if the target is not found
