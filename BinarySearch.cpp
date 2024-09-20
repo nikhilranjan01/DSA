@@ -19,7 +19,7 @@ int binarySearch(int arr[], int left, int right, int target) {
 }
 
 int main() {
-    int arr[] = {5, 12, 25, 30, 42, 55, 60};
+    int arr[] = {5, 12, 25, 30, 42, 55, 70};
     int n = sizeof(arr) / sizeof(arr[0]);
     int target = 30;
 
