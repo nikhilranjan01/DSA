@@ -50,7 +50,7 @@ void mergeSort(vector<int>& arr, int left, int right) {
 }
 
 int main() {
-    vector<int> arr = {12, 11, 13, 5, 6, 7};
+    vector<int> arr = {12, 11, 13, 5, 6, 9};
     int arr_size = arr.size();
 
     cout << "Given array is \n";
